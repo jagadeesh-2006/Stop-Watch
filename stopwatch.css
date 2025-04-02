@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    height: 500px;
+    border-color: black;
+    gap:10px
+    
+    
+}
+#startbtn{
+    background-color: red;
+    font-size: 5vh;
+}
+#resetbtn{
+    background-color: green;
+    font-size: 5vh;
+}
+#stopbtn{
+    background-color: blue;
+    font-size: 5vh;
+}
+#box{
+    box-shadow: rgb(43, 50, 50);
+    border: 20px;
+    border-color: black;
+}
+#btns{
+    display: flex;
+    flex-wrap: row;
+    gap:40px
+    
+    
+}
+#display{
+    align-items: center;
+    text-align: center;
+    font-size: 10vh;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    margin-bottom: 20px;
+    color: aqua;
+    background-color: rgb(50, 50, 50);
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: width 2s ,height 4s,border-radius 4s,background 4s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 10);
+
+}
+button:hover{
+    transform: scale(1.05);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    text-align: center;
+
+}
+.container{
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    margin: 20vh 20vh;
+
+}
+
